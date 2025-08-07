@@ -13,9 +13,6 @@ authors = [
     {name = "Yixuan Zhai", email = "6344553+randombet@users.noreply.github.com"}
 ]
 
-[project.urls]
-Repository = "https://github.com/randombet/claude_code_session_client"
-
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -29,6 +26,9 @@ dependencies = [
     "claude-code-sdk==0.0.19",
     "trio>=0.20.0",
 ]
+
+[project.urls]
+Repository = "https://github.com/randombet/claude_code_session_client"
 
 [project.optional-dependencies]
 dev = [
